@@ -1,0 +1,130 @@
+
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+@media 
+(min-width: 992px){
+.my-modal-lg {
+    width: auto;
+}}
+
+@media (min-width: 768px){
+.my-modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+ }
+}
+@media (min-width: 768px){
+.my-modal-content {
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+}}
+
+.custom-modal{
+  width: 100VW;
+  height: 100VH;
+ }
+.mains{
+  width: 100% !important;
+  display: flex;
+  background-color: #FAFFE9;
+}
+main{
+  width: 100%;
+  padding: 20px;
+  background-color: #FAFFE9;
+}
+.sidebar{
+    border-right-style:inset !important;
+    border-width: 1px !important;
+    border-color: #CCCCCC;
+
+  background: #FAFFE9;
+  color: #000;
+  height: 100vh;
+  width: 240px;
+  transition: all 0.5s;
+}
+.top_section{
+  justify-content: center;
+  background-color: #FAFFE9;
+  display: flex;
+  align-items:center;
+  padding:20px 15px 40px;
+}
+.logo{
+  color:#000;
+  font-size: 25px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link{
+  text-decoration-color: #FAFFE9;
+   display: flex;
+  color: #646464;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background:rgb(174, 191, 222);
+  text-decoration-color: rgb(174, 191, 222);
+  color: #000;
+  transition: all 0.5s;
+}
+.active{
+  text-decoration-color: rgb(174, 191, 222);
+  background: rgb(174, 191, 222);
+  color: #000;
+}
+.icon, .link_text{
+  text-decoration-color: #FAFFE9;
+    font-size: 15px;
+}
+.main-header{
+  border-bottom-style: inset;
+  border-width: 1px !important;
+  border-color: #CCCCCC;
+  padding: 8px;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-bottom: 20px;
+  height: 60px;
+  width: 100%;
+  background-color: #FAFFE9;
+  flex-direction: row;
+}
+.header-button{
+  flex-direction: column;
+}
+.header-title{
+  flex-direction: column;
+}
+.button-header {
+  align-self: center;
+  justify-self: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+.card-image{
+  
+  background-color: aqua !important;
+  /* margin: 22px; */
+  width: 85% !important;
+  margin: 7%;
+  border-radius: 7px;
+}
+.project-type{
+  background-color: 'red';
+}
+ 
